@@ -1,0 +1,60 @@
+Requirement already satisfied: seaborn in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from -r ./requirements.txt (line 1)) (0.10.0)
+Requirement already satisfied: matplotlib in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from -r ./requirements.txt (line 2)) (3.1.1)
+Requirement already satisfied: nltk in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from -r ./requirements.txt (line 3)) (3.4.5)
+Collecting sklearn
+  Downloading https://files.pythonhosted.org/packages/1e/7a/dbb3be0ce9bd5c8b7e3d87328e79063f8b263b2b1bfa4774cb1147bfcd3f/sklearn-0.0.tar.gz
+Requirement already satisfied: pandas in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from -r ./requirements.txt (line 5)) (0.25.3)
+Requirement already satisfied: numpy in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from -r ./requirements.txt (line 6)) (1.18.1)
+Requirement already satisfied: six<2.0.0dev,>=1.13.0 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from -r ./requirements.txt (line 7)) (1.13.0)
+Collecting google-cloud
+  Downloading https://files.pythonhosted.org/packages/ba/b1/7c54d1950e7808df06642274e677dbcedba57f75307adf2e5ad8d39e5e0e/google_cloud-0.34.0-py2.py3-none-any.whl
+Collecting google-cloud-storage
+  Downloading https://files.pythonhosted.org/packages/72/09/3af468fdf141923b78cdee7395cf0df65804cc6d25557ef1b55d4980673f/google_cloud_storage-1.27.0-py2.py3-none-any.whl (79kB)
+Collecting google-cloud-bigquery[pandas]
+  Downloading https://files.pythonhosted.org/packages/8f/f7/b6f55e144da37f38a79552a06103f2df4a9569e2dfc6d741a7e2a63d3592/google_cloud_bigquery-1.24.0-py2.py3-none-any.whl (165kB)
+Requirement already satisfied: scipy>=1.0.1 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from seaborn->-r ./requirements.txt (line 1)) (1.4.1)
+Requirement already satisfied: cycler>=0.10 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from matplotlib->-r ./requirements.txt (line 2)) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from matplotlib->-r ./requirements.txt (line 2)) (1.1.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.4.6)
+Requirement already satisfied: python-dateutil>=2.1 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from matplotlib->-r ./requirements.txt (line 2)) (2.8.1)
+Requirement already satisfied: scikit-learn in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from sklearn->-r ./requirements.txt (line 4)) (0.22.1)
+Requirement already satisfied: pytz>=2017.2 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from pandas->-r ./requirements.txt (line 5)) (2019.3)
+Collecting google-auth<2.0dev,>=1.11.0
+  Downloading https://files.pythonhosted.org/packages/4f/97/5e7083a5be4cbd1d928061c9d9cb3c070e55d5a15c563be41cb47b544807/google_auth-1.14.0-py2.py3-none-any.whl (88kB)
+Collecting google-cloud-core<2.0dev,>=1.2.0
+  Downloading https://files.pythonhosted.org/packages/89/3c/8a7531839028c9690e6d14c650521f3bbaf26e53baaeb2784b8c3eb2fb97/google_cloud_core-1.3.0-py2.py3-none-any.whl
+Collecting google-resumable-media<0.6dev,>=0.5.0
+  Downloading https://files.pythonhosted.org/packages/35/9e/f73325d0466ce5bdc36333f1aeb2892ead7b76e79bdb5c8b0493961fa098/google_resumable_media-0.5.0-py2.py3-none-any.whl
+Collecting protobuf>=3.6.0
+  Downloading https://files.pythonhosted.org/packages/92/30/1b7ccde09bf0c535d11f18a574ed7d7572c729a8f754fd568b297be08b61/protobuf-3.11.3-cp37-cp37m-win_amd64.whl (1.0MB)
+Collecting google-api-core<2.0dev,>=1.15.0
+  Downloading https://files.pythonhosted.org/packages/4c/b9/c0dd70bcdf06a43d1e21f387448e7997e0ce91f10d0fbee359af4cde1571/google_api_core-1.17.0-py2.py3-none-any.whl (70kB)
+Requirement already satisfied: setuptools in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from kiwisolver>=1.0.1->matplotlib->-r ./requirements.txt (line 2)) (44.0.0.post20200106)
+Requirement already satisfied: joblib>=0.11 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from scikit-learn->sklearn->-r ./requirements.txt (line 4)) (0.14.1)
+Collecting rsa<4.1,>=3.1.4
+  Downloading https://files.pythonhosted.org/packages/02/e5/38518af393f7c214357079ce67a317307936896e961e35450b70fad2a9cf/rsa-4.0-py2.py3-none-any.whl
+Collecting pyasn1-modules>=0.2.1
+  Downloading https://files.pythonhosted.org/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl (155kB)
+Collecting cachetools<5.0,>=2.0.0
+  Downloading https://files.pythonhosted.org/packages/b3/59/524ffb454d05001e2be74c14745b485681c6ed5f2e625f71d135704c0909/cachetools-4.1.0-py3-none-any.whl
+Requirement already satisfied: requests<3.0.0dev,>=2.18.0 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from google-api-core<2.0dev,>=1.15.0->google-cloud-bigquery[pandas]->-r ./requirements.txt (line 10)) (2.22.0)
+Collecting googleapis-common-protos<2.0dev,>=1.6.0
+  Downloading https://files.pythonhosted.org/packages/05/46/168fd780f594a4d61122f7f3dc0561686084319ad73b4febbf02ae8b32cf/googleapis-common-protos-1.51.0.tar.gz
+Collecting pyasn1>=0.1.3
+  Downloading https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77kB)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0dev,>=1.15.0->google-cloud-bigquery[pandas]->-r ./requirements.txt (line 10)) (3.0.4)
+Requirement already satisfied: idna<2.9,>=2.5 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0dev,>=1.15.0->google-cloud-bigquery[pandas]->-r ./requirements.txt (line 10)) (2.8)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0dev,>=1.15.0->google-cloud-bigquery[pandas]->-r ./requirements.txt (line 10)) (2020.4.5.1)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\abdul\anaconda3\envs\py\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0dev,>=1.15.0->google-cloud-bigquery[pandas]->-r ./requirements.txt (line 10)) (1.25.8)
+Building wheels for collected packages: sklearn, googleapis-common-protos
+  Building wheel for sklearn (setup.py): started
+  Building wheel for sklearn (setup.py): finished with status 'done'
+  Created wheel for sklearn: filename=sklearn-0.0-py2.py3-none-any.whl size=1321 sha256=c19b9f252033891728e36824dd36c12636aaa4018629020c9cd7d0e65693b9e7
+  Stored in directory: C:\Users\abdul\AppData\Local\pip\Cache\wheels\76\03\bb\589d421d27431bcd2c6da284d5f2286c8e3b2ea3cf1594c074
+  Building wheel for googleapis-common-protos (setup.py): started
+  Building wheel for googleapis-common-protos (setup.py): finished with status 'done'
+  Created wheel for googleapis-common-protos: filename=googleapis_common_protos-1.51.0-cp37-none-any.whl size=77603 sha256=432bf636c2b82100e7e8b24e2b391219a93ac0ab9730a54c0fc8c60be0e46f2d
+  Stored in directory: C:\Users\abdul\AppData\Local\pip\Cache\wheels\2c\f9\7f\6eb87e636072bf467e25348bbeb96849333e6a080dca78f706
+Successfully built sklearn googleapis-common-protos
+Installing collected packages: sklearn, google-cloud, pyasn1, rsa, pyasn1-modules, cachetools, google-auth, protobuf, googleapis-common-protos, google-api-core, google-cloud-core, google-resumable-media, google-cloud-storage, google-cloud-bigquery
+Successfully installed cachetools-4.1.0 google-api-core-1.17.0 google-auth-1.14.0 google-cloud-0.34.0 google-cloud-bigquery-1.24.0 google-cloud-core-1.3.0 google-cloud-storage-1.27.0 google-resumable-media-0.5.0 googleapis-common-protos-1.51.0 protobuf-3.11.3 pyasn1-0.4.8 pyasn1-modules-0.2.8 rsa-4.0 sklearn-0.0
